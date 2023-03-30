@@ -1,0 +1,57 @@
+.left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  background-color: #85c872;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box {
+  background-color: #85c872; /* Replace with desired background color */
+  text-align: left;
+  margin: auto;
+  padding: 20px;
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box h1 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.box p {
+  max-width: 80%; /* Limit the width of the paragraph text */
+  line-height: 1.5;
+  text-align: left;
+}
+
+img {
+  position: absolute;
+  /*top: 50%;*/
+  right: 20%;
+  /*transform: translate(50%, -50%);*/
+  padding: 50px;
+  width: 40vw;
+  height: 40vw;
+}

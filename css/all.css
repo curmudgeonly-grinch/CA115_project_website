@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+  height: 100vh;
+  text-align: center;
+}
+
+/* START OF NAV BAR */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+nav ul {
+  font-family: Staatliches;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 100px;
+  overflow: hidden;
+  background-color: grey;
+}
+
+nav li {
+  display: inline;
+  margin: 0 3%;
+}
+
+nav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li.dropdown {
+  display: inline-block;
+}
