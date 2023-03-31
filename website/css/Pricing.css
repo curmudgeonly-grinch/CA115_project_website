@@ -1,0 +1,63 @@
+.Aboutusall {
+    width: 25vw;
+    text-align: left;
+  }
+  
+  hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 3px;
+    border-color: black;
+  }
+  
+  p.Aboutus {
+    margin-left: auto;
+    text-align: left;
+  }
+  
+  button.Aboutus {
+    background-color: #0c831c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .column {
+    float: left;
+    width: 20vw;
+    padding: 25px;
+    height: 300px;
+    margin: 10px;
+    text-align: left;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: center;
+  }
+  
+  .item-center {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 4px;
+    align-items: center;
+    justify-items: center;
+  }
+
+  #corners {
+    border-radius: 15px;
+    background: rgb(163, 168, 165);
+    padding: 20px; 
+    width: 20vw;
+    height: 650px; 
+  }
